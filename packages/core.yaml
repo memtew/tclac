@@ -125,7 +125,7 @@ captive_portal:
 #logger:
 #  baud_rate: 0
 logger:
-  level: INFO
+  level: VERY_VERBOSE
   logs:
     climate: WARN
     sensor: WARN
