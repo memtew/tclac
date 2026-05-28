@@ -122,8 +122,15 @@ captive_portal:
 # # # # # # # # # # # # # # # # # # # # # # #
 
 # ОБЯЗАТЕЛЬНО отключаем логгирование через UART
+#logger:
+#  baud_rate: 0
 logger:
-  baud_rate: 0
+  level: INFO
+  logs:
+    climate: WARN
+    sensor: WARN
+    WRITE : WARN
+    READ : WARN
 
 # Раздел настроек устройства:
 # - Переключатели
